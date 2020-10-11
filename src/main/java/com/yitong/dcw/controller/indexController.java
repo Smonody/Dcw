@@ -26,6 +26,7 @@ public class indexController {
 
     @GetMapping("/getSwipe")
     public ResponseResult<ArrayList<Swipe>> getSwipe(){
+
         return indexService.getSwipe();
     }
 
